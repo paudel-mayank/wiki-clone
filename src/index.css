@@ -1,0 +1,88 @@
+img {
+  height: 280px;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: #f2dfce;
+  font-family: "Montserrat", sans-serif !important;
+  transition: all 1s ease;
+}
+input,
+button {
+  outline: none;
+}
+button {
+  background-color: green;
+  color: white;
+  border: none;
+}
+input {
+  border: 1px solid grey;
+}
+.search {
+  font-size: 22px;
+  margin-right: 2px;
+}
+.form {
+  vertical-align: middle;
+  text-align: center;
+}
+.resultContainer {
+  padding: 2rem;
+}
+.tab {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.eachtab {
+  background-color: #c4dbfa;
+  margin: 10px;
+  padding: 10px;
+  /* display: flex;
+  flex-direction: column; */
+  width: 330px;
+  position: relative;
+  height: 220px;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px,
+    rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+}
+/* .eachtab::after,
+.eachtab::before {
+  content: "";
+  flex: 1;
+} */
+
+.eachtab .read-more {
+  position: absolute;
+  bottom: 10%;
+  color: #0d7680;
+}
+a {
+  text-decoration: none;
+}
+.read-more:hover {
+  border-bottom: solid 2px white;
+  color: white;
+}
+#title {
+  text-align: center;
+  font-weight: 700;
+  color: #0d7680;
+  font-size: 1.2rem;
+}
+
+@media screen and (max-width: 900px) {
+  .tab {
+    justify-content: space-around;
+  }
+  .eachtab {
+    width: 220px;
+    height: 300px;
+  }
+}
