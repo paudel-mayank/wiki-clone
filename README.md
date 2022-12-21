@@ -1,5 +1,6 @@
  -Uses React Context along with hooks like : useState, UseEffect
-
+ -Includes react-router-dom ecosystem to transer link to  full search item details
+ 
 Main Page:
 ![Screenshot from 2022-12-14 14-52-07](https://user-images.githubusercontent.com/64112283/207553685-fd822506-9798-432f-8abe-2aed704bb74b.png)
 
