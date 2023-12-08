@@ -14,12 +14,12 @@ const Result = ({ items }) => {
                 dangerouslySetInnerHTML={{
                   __html: item.snippet.substring(0, 200),
                 }}
-              ></p>
+              />
               <a
                 className="text-decoration-none max read-more"
                 href={`http://en.wikipedia.org/?curid=${item.pageid}`}
               >
-                Read More{" "}
+                Read More
               </a>
             </div>
           );

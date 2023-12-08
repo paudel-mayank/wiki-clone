@@ -9,16 +9,20 @@ const SearchForm = () => {
   };
   return (
     <form className="form text-center" onSubmit={handleSubmit}>
+      <div>
+      <button className="rounded-2 py-1 px-2" type="submit">
+        <AiOutlineSearch className="search " />
+     
       <input
-        className="rounded-2 py-1 px-2"
+        className="border-0 border-width-0"
         type="text"
         placeholder="search..."
         value={searchterm}
         onChange={(e) => setSearchterm(e.target.value)}
       />
-      <button className="rounded-2 py-1 px-2" type="submit">
-        <AiOutlineSearch className="search " />
-      </button>
+       </button>
+    
+      </div>
     </form>
   );
 };

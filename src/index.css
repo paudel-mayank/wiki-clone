@@ -16,7 +16,7 @@ button {
   outline: none;
 }
 button {
-  background-color: green;
+  background-color: white;
   color: white;
   border: none;
 }
@@ -25,7 +25,10 @@ input {
 }
 .search {
   font-size: 22px;
-  margin-right: 2px;
+  margin-right: 8px;
+  color: black;
+  padding:10px,
+
 }
 .form {
   vertical-align: middle;
